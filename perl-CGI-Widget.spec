@@ -5,19 +5,19 @@
 %define	pdir	CGI
 %define	pnam	Widget
 Summary:	CGI::Widget - Base class for CGI::Widget::...
-#Summary(pl):	CGI::Widget - (hmm, jak przet³umoczyæ ,,widget''?)
+Summary(pl):	CGI::Widget - klasa bazowa dla CGI::Widget::...
 Name:		perl-CGI-Widget
 Version:	0.15
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-26
 %if %{?_without_tests:0}%{!?_without_tests:1}
 BuildRequires:	perl-CGI
 BuildRequires:	perl-Tree-DAG_Node
 %endif
+BuildRequires:	rpm-perlprov >= 3.0.3-26
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
