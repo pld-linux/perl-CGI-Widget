@@ -9,7 +9,7 @@ Summary:	CGI::Widget - base class for CGI::Widget::
 Summary(pl):	CGI::Widget - klasa bazowa dla CGI::Widget::
 Name:		perl-CGI-Widget
 Version:	0.15
-Release:	3
+Release:	4
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
