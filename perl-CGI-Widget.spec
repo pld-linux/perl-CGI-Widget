@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	CGI
-%define	pnam	Widget
+%define		pdir	CGI
+%define		pnam	Widget
 Summary:	CGI::Widget - base class for CGI::Widget::
 Summary(pl):	CGI::Widget - klasa bazowa dla CGI::Widget::
 Name:		perl-CGI-Widget
