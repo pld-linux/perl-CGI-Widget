@@ -4,8 +4,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	CGI
 %define	pnam	Widget
-Summary:	CGI::Widget - Base class for CGI::Widget::...
-Summary(pl):	CGI::Widget - klasa bazowa dla CGI::Widget::...
+Summary:	CGI::Widget - Base class for CGI::Widget::
+Summary(pl):	CGI::Widget - klasa bazowa dla CGI::Widget::
 Name:		perl-CGI-Widget
 Version:	0.15
 Release:	2
