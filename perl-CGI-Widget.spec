@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Widget
 Summary:	CGI::Widget - base class for CGI::Widget::
-Summary(pl):	CGI::Widget - klasa bazowa dla CGI::Widget::
+Summary(pl.UTF-8):   CGI::Widget - klasa bazowa dla CGI::Widget::
 Name:		perl-CGI-Widget
 Version:	0.15
 Release:	4
@@ -28,10 +28,10 @@ The CGI::Widget module's purpose is to allow authors of CGI or other
 dynamically generated HTML documents an easy way to create common,
 and possibly complex, page elements.
 
-%description -l pl
-Zadaniem CGI::Widget jest udost阷nienie autorom skrypt體 CGI (lub
-korzystaj眂ym z innych technik dynamicznego tworzenia dokument體 HTML)
-prostego sposobu na tworzenie wsp髄nych i mo縧iwie z硂縪nych element體
+%description -l pl.UTF-8
+Zadaniem CGI::Widget jest udost臋pnienie autorom skrypt贸w CGI (lub
+korzystaj膮cym z innych technik dynamicznego tworzenia dokument贸w HTML)
+prostego sposobu na tworzenie wsp贸lnych i mo偶liwie z艂o偶onych element贸w
 stron.
 
 %prep
