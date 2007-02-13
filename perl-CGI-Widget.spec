@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Widget
 Summary:	CGI::Widget - base class for CGI::Widget::
-Summary(pl.UTF-8):   CGI::Widget - klasa bazowa dla CGI::Widget::
+Summary(pl.UTF-8):	CGI::Widget - klasa bazowa dla CGI::Widget::
 Name:		perl-CGI-Widget
 Version:	0.15
 Release:	4
