@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	CGI
 %define		pnam	Widget
+%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Widget - base class for CGI::Widget::
 Summary(pl.UTF-8):	CGI::Widget - klasa bazowa dla CGI::Widget::
 Name:		perl-CGI-Widget
@@ -14,19 +14,20 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	70a57a75c17696fe57590efbaab787f8
+URL:		http://search.cpan.org/dist/CGI-Widget/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-CGI
 BuildRequires:	perl-Tree-DAG_Node
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The CGI::Widget module's purpose is to allow authors of CGI or other
-dynamically generated HTML documents an easy way to create common,
-and possibly complex, page elements.
+dynamically generated HTML documents an easy way to create common, and
+possibly complex, page elements.
 
 %description -l pl.UTF-8
 Zadaniem CGI::Widget jest udostępnienie autorom skryptów CGI (lub
